@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* Header */
+nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(39, 40, 56, 0.3);
+  position: fixed;
+  top: 0;
+  /* padding: 20px 25px; */
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 30px rgb(0, 0, 0, 0.2);
+}
+  
+ul {
+  list-style: none;
+  padding-right: 2.5%;
+}
+
+nav a {
+  
+}
+  
+li {
+  display: inline-block;
+}
+  
+li a {
+  margin-left: 40px;
+  cursor: pointer;
+}
+  
+nav a {
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+  
+#title {
+  font-size: 28px;
+  padding-left: 2.5%;
+}
+
+.u-color {
+  text-decoration: underline;
+  text-decoration-color: #e59500;
+  height: 1px;
+  text-decoration-thickness: 3px;
+}
+
+/* Body */
+.body {
+  padding-top: 60px;
+}
+
+.affiche {
+  height: 800px;
+  /* max-height: 500px; */
+}
+
+.aff-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.aff-img img {
+  width: 100%;
+  height: 100%;
+  /* max-height: 400px; */
+  opacity: 0.7;
+}
+
+.aff-text {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  width: 600px;
+  min-height: 150px;
+  font-size: 200%;
+  color: white;
+}
+
+.aligner-centre {
+  margin-top: 15px;
+  opacity: 0.7;
+  text-align: center;
+}
